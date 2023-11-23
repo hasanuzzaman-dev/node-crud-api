@@ -13,6 +13,10 @@ app.get("/", (req, res) => {
     res.send("Server Running!");
 });
 
+app.get("/api", (req, res) => {
+    res.send("Server Running 2!");
+});
+
 // creating corse route
 app.use("/api/v1", courseRouter);
 
