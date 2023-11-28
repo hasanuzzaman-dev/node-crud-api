@@ -10,7 +10,7 @@ app.use(cors());
 // send json body
 app.use(bodyParser.json());
 app.get("/", (req, res) => {
-    res.send("Server Running!");
+    res.send("Server Running test!");
 });
 
 app.get("/api", (req, res) => {
