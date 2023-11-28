@@ -1,8 +1,9 @@
+# prettier-ignore
 version: "3.3"
 services:
-    web:
-        container_name: node-crud-api-v1
-        build: .
-        ports:
-            - "2000:2000"
-        image: node-crud-api:0.0.1
+  web:
+    container_name: node-crud-api-v1
+    build: .
+    ports:
+        - "2000:2000"
+    image: node-crud-api:0.0.1
